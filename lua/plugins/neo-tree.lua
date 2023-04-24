@@ -72,8 +72,8 @@ return {
         content_layout = "center",
         tab_labels = {
           filesystem = get_icon "FolderClosed" .. " File",
-          buffers = get_icon "DefaultFile" .. " Bufs",
-          git_status = get_icon "Git" .. " Git",
+          -- buffers = get_icon "DefaultFile" .. " Bufs",
+          -- git_status = get_icon "Git" .. " Git",
           diagnostics = get_icon "Diagnostic" .. " Diagnostic",
         },
       },
