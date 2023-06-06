@@ -32,4 +32,7 @@ require("tokyonight").setup({
   end
 })
 
+-- require("scrollbar").setup()
+require('mini.map').setup()
+
 require("astronvim.utils").conditional_func(astronvim.user_opts("polish", nil, false), true)
