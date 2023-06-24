@@ -118,6 +118,11 @@ return {
         hijack_netrw_behavior = "open_current",
         use_libuv_file_watcher = true,
         commands = global_commands,
+        filtered_items = {
+          visible = true,
+          hide_dotfiles = false,
+          hide_gitignored = true,
+        }
       },
       buffers = { commands = global_commands },
       git_status = { commands = global_commands },
