@@ -32,9 +32,6 @@ require("tokyonight").setup({
   end
 })
 
--- require("scrollbar").setup()
-require('mini.map').setup()
-
 require('go').setup()
 
 require('lualine').setup()
